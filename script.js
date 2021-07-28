@@ -1,8 +1,23 @@
-let count = 0
-while(count < 5){
+var lista  = [nome: “rosa” , “cravo” , “tulipa”, “margarida”]
+console.log(lista[2]);
+/*
+let d = new Date()
+alert(d.getMinutes())
+*/
+/*
+let count 
+for(count = 0; count <= 5; count++){
     console.log(count)
-    count = count++
 }
+*/
+
+/*
+let count = 0
+while(count <= 8){
+    console.log(count)
+    count++
+}
+*/
 
 
 /*
