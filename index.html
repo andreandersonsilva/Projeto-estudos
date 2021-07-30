@@ -7,6 +7,33 @@
     <title>Arquivo para testes</title>
 </head>
 <body>
+    <!--
+    <button type="button" onclick="clicou()">Clique Aqui</button>
+    <p id="agradecimento"></p>
+    -->
+    
+    <!--
+        Botão para abrir nova aba com um link específico
+    <button type="button" onclick="redirecionar()">Clique Aqui</button>
+    -->    
+
+    <!--Função criada para modificar o texto quando passa o mouse no botão sem cllicar
+    <button type="button" onmousemove="passou()">Clique Aqui</button>
+    <p id="mousemove">Passe o Mouse</p>    
+    -->
+
+    
+    <button type="button" onmousemove="passou()" onmouseout="voltar()">Clique Aqui</button>
+    <p id="mousemove">Passe o Mouse</p>    
+
+    <!--Inserindo o this no nome função eu posso inserir o valor elemento na função criada em JS que vai fazer a ligação
+    com o HTML, dando a mesma função que o document.getElementByID-->
+    <select onchange="funcaoChange(this)">
+        <option value="1">Valor 01</option>
+        <option value="2">Valor 02</option>
+        <option value="3">Valor 03</option>
+
+    </select>
     
 
     <script src="script.js"></script>

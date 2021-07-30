@@ -1,5 +1,48 @@
+function passou(){
+    document.getElementById("mousemove").innerHTML = "Passou o mouse"
+}
+
+function voltar(){
+    document.getElementById("mousemove").innerHTML = "Passe o Mouse"
+}
+
+function funcaoChange(elemento) {
+    console.log(elemento.value)
+}
+
+/*
+Função criada para modificar o texto quando passa o mouse no botão sem cllicar
+function passou(){
+    document.getElementById("mousemove").innerHTML = "Passou o mouse"
+}
+*/
+
+/*
+Botão para abrir nova aba com um link específico
+function redirecionar(){
+    window.open("https://amo.curitiba.br/")
+}
+*/
+
+/*
+Aparecer Obrigado na tela apertando o botão
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado"
+}
+*/
+
+/*function soma(n1, n2){
+    return(n1+n2)
+
+}
+alert(soma(5,11))
+*/
+
+/*
 var lista  = [nome: “rosa” , “cravo” , “tulipa”, “margarida”]
 console.log(lista[2]);
+*/
+
 /*
 let d = new Date()
 alert(d.getMinutes())
